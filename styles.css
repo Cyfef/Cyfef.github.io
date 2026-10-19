@@ -62,7 +62,11 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .nav a, .social-links a, .text-link { position: relative; }
 .nav a::after, .social-links a::after, .text-link::after { content: ""; position: absolute; left: 0; right: 100%; bottom: -6px; height: 1px; background: currentColor; transition: right .25s ease; }
 .nav a:hover::after, .social-links a:hover::after, .text-link:hover::after { right: 0; }
-.theme-toggle { justify-self: end; width: 38px; height: 38px; border: 1px solid var(--line); border-radius: 50%; background: transparent; color: var(--text); cursor: pointer; font-size: 1.1rem; transition: transform .25s ease, background .25s ease; }
+.header-actions { justify-self: end; display: flex; align-items: center; gap: 9px; }
+.language-toggle { height: 38px; display: inline-flex; align-items: center; gap: 7px; padding: 0 13px; border: 1px solid var(--line); border-radius: 999px; background: transparent; color: var(--text); cursor: pointer; font: 600 .66rem/1 var(--sans); letter-spacing: .06em; transition: background .25s ease, border-color .25s ease, transform .25s ease; }
+.language-toggle:hover { background: var(--surface); border-color: rgba(255,255,255,.3); transform: translateY(-1px); }
+.language-current { color: var(--lime); }.language-divider { color: var(--muted); }.language-next { color: var(--muted); }
+.theme-toggle { width: 38px; height: 38px; border: 1px solid var(--line); border-radius: 50%; background: transparent; color: var(--text); cursor: pointer; font-size: 1.1rem; transition: transform .25s ease, background .25s ease; }
 .theme-toggle:hover { transform: rotate(25deg); background: var(--surface); }
 
 .hero { min-height: calc(100vh - 92px); display: grid; grid-template-columns: 1.1fr .9fr; grid-template-rows: 1fr auto; align-items: center; gap: 28px 70px; padding-block: 70px 32px; position: relative; }
