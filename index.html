@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Cyfef 的个人主页与作品集。" />
+    <meta name="theme-color" content="#0b0c0e" />
+    <title>Cyfef — Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <header class="site-header" data-reveal>
+      <a class="brand" href="#top" aria-label="返回首页">
+        <span class="brand-mark">C</span>
+        <span>CYFEF</span>
+      </a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#about">关于</a>
+        <a href="#work">作品</a>
+        <a href="#contact">联系</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="切换主题" title="切换主题">
+        <span class="theme-icon" aria-hidden="true">◐</span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy" data-reveal>
+          <div class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR SOMETHING GREAT</div>
+          <h1 id="hero-title">你好，我是<br /><span>Cyfef.</span></h1>
+          <p class="hero-lede">我在数字世界里寻找灵感、创造体验，也认真记录每一次成长。这里将会是我的作品、想法与生活切片。</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">浏览作品 <span aria-hidden="true">↘</span></a>
+            <a class="text-link" href="#contact">和我聊聊 <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-reveal>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="portrait-card">
+            <div class="portrait-placeholder">
+              <span class="portrait-monogram">CY</span>
+              <span class="portrait-note">YOUR PHOTO · 01</span>
+            </div>
+          </div>
+          <div class="floating-note note-one">Based in<br /><strong>Somewhere</strong></div>
+          <div class="floating-note note-two"><span>✦</span> Keep<br />creating.</div>
+        </div>
+
+        <div class="hero-index" aria-hidden="true" data-reveal>
+          <span>PORTFOLIO</span><span>© 2026</span>
+        </div>
+      </section>
+
+      <section class="marquee" aria-label="能力关键词">
+        <div class="marquee-track">
+          <span>IDEAS</span><i>✦</i><span>DESIGN</span><i>✦</i><span>DEVELOPMENT</span><i>✦</i><span>CURIOSITY</span><i>✦</i>
+          <span>IDEAS</span><i>✦</i><span>DESIGN</span><i>✦</i><span>DEVELOPMENT</span><i>✦</i><span>CURIOSITY</span><i>✦</i>
+        </div>
+      </section>
+
+      <section class="about section-shell" id="about" aria-labelledby="about-title">
+        <div class="section-label" data-reveal><span>01</span> ABOUT</div>
+        <div class="about-grid">
+          <div class="about-statement" data-reveal>
+            <h2 id="about-title">把<span class="accent-script">好奇</span>变成<br />有温度的作品。</h2>
+          </div>
+          <div class="about-copy" data-reveal>
+            <p>这是你的个人简介区域。你可以写下自己的专业方向、正在探索的领域，以及希望通过作品传递的价值。</p>
+            <p>不需要像简历一样面面俱到——真诚、具体、有一点个性，就足够让人记住你。</p>
+            <a class="text-link" href="#journey">了解我的经历 <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+
+        <div class="bento-grid">
+          <article class="bento-card bento-card-large lime-card" data-reveal>
+            <span class="card-kicker">CURRENT FOCUS</span>
+            <h3>此刻，我正在<br />探索新的可能。</h3>
+            <p>在这里填写你最近关注的方向、正在学习的技术，或想要实现的长期目标。</p>
+            <span class="decorative-arrow" aria-hidden="true">↗</span>
+          </article>
+
+          <article class="bento-card stat-card" data-reveal>
+            <span class="card-kicker">EXPERIENCE</span>
+            <div class="big-number">0<span>+</span></div>
+            <p>将数字换成你的经验年限，或者任何值得纪念的里程碑。</p>
+          </article>
+
+          <article class="bento-card location-card" data-reveal>
+            <div class="globe" aria-hidden="true"><span></span></div>
+            <div>
+              <span class="card-kicker">LOCATION</span>
+              <h3>你的城市</h3>
+              <p>远程协作 / 欢迎联系</p>
+            </div>
+          </article>
+
+          <article class="bento-card quote-card" data-reveal>
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <blockquote>在这里放一句能代表你、影响你，或让你继续前进的话。</blockquote>
+            <span class="card-kicker">— YOUR MOTTO</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="work section-shell" id="work" aria-labelledby="work-title">
+        <div class="section-label" data-reveal><span>02</span> SELECTED WORK</div>
+        <div class="section-heading" data-reveal>
+          <h2 id="work-title">一些值得<br /><em>被看见</em>的作品。</h2>
+          <p>项目内容已预留。添加真实作品后，你可以展示背景、过程、成果与链接。</p>
+        </div>
+
+        <div class="project-list">
+          <a class="project-card project-featured" href="#" aria-label="项目一，占位内容" data-reveal>
+            <div class="project-visual visual-one">
+              <div class="mock-window">
+                <div class="mock-bar"><i></i><i></i><i></i></div>
+                <div class="mock-content"><span></span><strong>PROJECT<br />ONE</strong><span></span></div>
+              </div>
+            </div>
+            <div class="project-meta">
+              <div><span class="project-no">01</span><h3>项目名称 / Project One</h3></div>
+              <p>品牌设计 · 网站开发 · 2026</p>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+          <div class="project-pair">
+            <a class="project-card" href="#" aria-label="项目二，占位内容" data-reveal>
+              <div class="project-visual visual-two"><div class="poster">MAKE<br /><i>IT</i><br />REAL.</div></div>
+              <div class="project-meta compact">
+                <div><span class="project-no">02</span><h3>项目名称 / Project Two</h3></div>
+                <span class="project-arrow" aria-hidden="true">↗</span>
+              </div>
+            </a>
+            <a class="project-card" href="#" aria-label="项目三，占位内容" data-reveal>
+              <div class="project-visual visual-three">
+                <div class="shape shape-a"></div><div class="shape shape-b"></div><div class="shape shape-c"></div>
+                <span>CYFEF®</span>
+              </div>
+              <div class="project-meta compact">
+                <div><span class="project-no">03</span><h3>项目名称 / Project Three</h3></div>
+                <span class="project-arrow" aria-hidden="true">↗</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="journey section-shell" id="journey" aria-labelledby="journey-title">
+        <div class="section-label" data-reveal><span>03</span> JOURNEY</div>
+        <div class="journey-layout">
+          <div class="section-heading sticky-heading" data-reveal>
+            <h2 id="journey-title">成长不是直线，<br />每一站都算数。</h2>
+            <p>在这里整理你的教育、工作与重要经历。</p>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item" data-reveal>
+              <span class="timeline-year">20XX — NOW</span>
+              <div><h3>职位或当前身份</h3><p>公司 / 组织名称</p><p class="timeline-desc">简单描述你负责的事情、获得的成长，以及值得分享的成果。</p></div>
+            </article>
+            <article class="timeline-item" data-reveal>
+              <span class="timeline-year">20XX — 20XX</span>
+              <div><h3>上一段重要经历</h3><p>公司 / 学校 / 组织</p><p class="timeline-desc">补充关键项目、团队角色，或这段经历带给你的改变。</p></div>
+            </article>
+            <article class="timeline-item" data-reveal>
+              <span class="timeline-year">20XX — 20XX</span>
+              <div><h3>故事开始的地方</h3><p>专业 / 学校 / 第一个项目</p><p class="timeline-desc">记录最初的兴趣、一次转折，或者推动你走到今天的起点。</p></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-shell" id="contact" aria-labelledby="contact-title">
+        <div class="contact-card" data-reveal>
+          <div class="contact-orb" aria-hidden="true"></div>
+          <span class="card-kicker">LET'S MAKE SOMETHING MEANINGFUL</span>
+          <h2 id="contact-title">有个好想法？<br /><em>一起聊聊。</em></h2>
+          <p>这里可以换成你的邮箱、社交账号，或任何你喜欢的联系方式。</p>
+          <a class="button button-light" href="mailto:hello@example.com">hello@example.com <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <a class="brand" href="#top"><span class="brand-mark">C</span><span>CYFEF</span></a>
+      <p>Designed with curiosity. Built with care.</p>
+      <div class="social-links" aria-label="社交链接">
+        <a href="https://github.com/Cyfef" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">More</a>
+      </div>
+      <p class="copyright">© <span id="year">2026</span> CYFEF</p>
+    </footer>
+  </body>
+</html>
