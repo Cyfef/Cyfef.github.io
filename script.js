@@ -74,7 +74,7 @@ function applyLanguage(language, updateUrl = true) {
 }
 
 const queryLanguage = new URLSearchParams(window.location.search).get('lang');
-const initialLanguage = queryLanguage === 'en' ? 'en' : (localStorage.getItem('cyfef-language') || 'zh');
+const initialLanguage = ['zh', 'en'].includes(queryLanguage) ? queryLanguage : (localStorage.getItem('cyfef-language') || 'zh');
 applyLanguage(initialLanguage, false);
 
 languageToggle?.addEventListener('click', () => {
